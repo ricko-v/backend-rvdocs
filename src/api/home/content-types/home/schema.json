@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prefix_title": {
+      "type": "string",
+      "default": "rv",
+      "required": true
+    },
+    "hero_title": {
+      "type": "string",
+      "default": "Personal Web Documentation",
+      "required": true
+    },
+    "hero_subtitle": {
+      "type": "string",
+      "default": "Just My Documentation of the Journey.",
+      "required": true
+    },
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subfix_title": {
+      "type": "string",
+      "default": "docs",
+      "required": true
+    }
+  }
+}
